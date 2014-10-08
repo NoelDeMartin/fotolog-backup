@@ -63,7 +63,7 @@ def store_post(folder, soup):
 	image_file.write(get_url_data(image_url))
 	image_file.close()
 
-	text_file = open(folder + date, 'wb')
+	text_file = open(folder + date + '.txt', 'wb')
 	if post_title is not None:
 		text_file.write("[" + post_title.text.encode('utf-8') + "]\n")
 	else:
