@@ -6,7 +6,7 @@ This python script intends to obtain the same as the original coffee script in t
 
     git clone https://github.com/noeldemartin/fotolog-backup.git
     cd fotolog-backup/python
-    python backup-fotolog.py [Fotolog Username] [Destination Path (Optional)]
+    python fotolog-backup.py [Fotolog Username] [Destination Path (Optional)]
 
 ### Dependencies
 
