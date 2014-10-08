@@ -88,6 +88,9 @@ else:
 	username = sys.argv[1]
 	output_dir = sys.argv[2]
 
+if output_dir[-1] != '/':
+	output_dir = output_dir + '/'
+
 url = 'http://www.fotolog.com/' + username
 retries = 0
 
